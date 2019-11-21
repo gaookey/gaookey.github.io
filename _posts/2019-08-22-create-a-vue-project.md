@@ -11,15 +11,15 @@ comments: true
 
 前提：查看node 和npm 是否安装
 
-![avatar][/images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-01.png]
+![avatar][images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-01.png]
 
 创建工程
 
-![avatar][/images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-02.png]
+![avatar][mouos/images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-02.png]
 
 选中项目
 
-![avatar][/images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-03.png]
+![avatar][/mouos/images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-03.png]
 
 终端输入 
 
