@@ -5,7 +5,7 @@ date: 2019-11-20
 Author: gwl
 categories: 
 tags: [blog, migration, instructions]
-comments: true
+comments: flase
 ---
 
 为了追求更好的写作体验，更好的展示博客内容，更好的备份博客以免丢失，考虑到外部平台不受控、无备份、文章审核一直中等等等等各种因素，即日起原博客将迁移至 [个人新站点：https://gwl.xyz/ (即本站点)](https://gwl.xyz/)，[原站点](https://my.oschina.net/gwlCode)不再维护。
