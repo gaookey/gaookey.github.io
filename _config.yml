@@ -5,9 +5,9 @@
 # 你的博客名称，请用你想要的博客名替换“LOFFER”，以下修改都可类似处理
 # 注意，“name: LOFFER”，冒号后面的空格不可以省略。
 # 井号后面的文字是说明文档，不会被程序读取。
-name: mouos
+name: 高文立
 # 描述/签名
-description: 个人博客
+description: 个人空间
 
 #
 # 下面的设定都是可选的
@@ -36,7 +36,7 @@ paginate: 8
 
 # 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
 footer-links: 
-  weibo: mouos #请输入你的微博个性域名 https://www.weibo.com/<thispart>
+  weibo: #mouos #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<>
   dribbble: # https://dribbble.com/<>
   email: gao.wenli@foxmail.com 
@@ -62,7 +62,7 @@ disqus: loffer #shortname
 google_analytics:
 
 # 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
-url: 
+url: mouos.com
 
 # 添加你的博客的二级域名，一般来说是你的repository名
 # 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
