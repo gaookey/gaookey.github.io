@@ -8,11 +8,7 @@ tags: [xcode, simulator]
 comments: true
 ---
 
-Xocde会自带一个模拟器，且都是随安装包一起打包的，比如Xcode11的就自带iOS13的模拟器，这个是没办法删除。
-
-我们可以在Xcode的Prefrences的Components中(快捷键cmd+,)下载不同版本的模拟器.
-
-但是对于想要用iOS10以前的模拟器，可以通过这里进行下载：
+Xocde会自带一个模拟器，且都是随安装包一起打包的，比如Xcode11的就自带iOS13的模拟器，这个是没办法删除。我们可以在 Xcode/Prefrences/Components 中下载不同版本的模拟器。
 
 ![img](https://github.com/mouos/mouos.github.io/blob/master/images/article%20images/2019-11-21-xcode-removes-redundant-emulators/2019-11-21-xcode-removes-redundant-emulators-01.png?raw=true)
 
