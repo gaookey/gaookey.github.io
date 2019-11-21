@@ -11,15 +11,15 @@ comments: true
 
 前提：查看node 和npm 是否安装
 
-![avatar][images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-01.png]
+![img][https://github.com/mouos/mouos.github.io/blob/master/images/article%20images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-01.png?raw=true]
 
 创建工程
 
-![avatar][mouos/images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-02.png]
+![img][https://github.com/mouos/mouos.github.io/blob/master/images/article%20images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-02.png?raw=true]
 
 选中项目
 
-![avatar][/mouos/images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-03.png]
+![img][https://github.com/mouos/mouos.github.io/blob/master/images/article%20images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-03.png?raw=true]
 
 终端输入 
 
@@ -27,11 +27,11 @@ comments: true
 npm init -y
 ```
 
-![avatar][/images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-01.png]
+![img][https://github.com/mouos/mouos.github.io/blob/master/images/article%20images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-04.png?raw=true]
 
 命令完成后，项目会自动添加 package.json 文件
 
-![avatar][/images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-01.png]
+![img][https://github.com/mouos/mouos.github.io/blob/master/images/article%20images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-05.png?raw=true]
 
 执行命令 
 
@@ -39,12 +39,12 @@ npm init -y
 npm install vue --save
 ```
 
-![avatar][/images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-01.png]
+![img][https://github.com/mouos/mouos.github.io/blob/master/images/article%20images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-06.png?raw=true]
 
 安装完毕，项目中自动添加 package-lock.json 文件
 
-![avatar][/images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-01.png]
+![img][https://github.com/mouos/mouos.github.io/blob/master/images/article%20images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-07.png?raw=true]
 
 package.json 文件也多出了字段 dependencies
 
-![avatar][/images/article images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-01.png]
+![img][https://github.com/mouos/mouos.github.io/blob/master/images/article%20images/2019-08-22-create-a-vue-project/2019-08-22-create-a-vue-project-08.png?raw=true]
