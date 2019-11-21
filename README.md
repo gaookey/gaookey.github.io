@@ -1,1 +1,1 @@
-[博客地址：[](https://gwl.xyz/)](https://gwl.xyz/)
+[博客地址：(https://gwl.xyz/)](https://gwl.xyz/)
