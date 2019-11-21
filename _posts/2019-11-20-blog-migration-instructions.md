@@ -1,7 +1,11 @@
 ---
-layout: page
-title: 关于
-permalink: /about/
+layout: post
+title: 博客迁移说明
+date: 2019-11-20
+Author: gwl
+categories: 
+tags: [blog, migration, instructions]
+comments: true
 ---
 
 为了追求更好的写作体验，更好的展示博客内容，更好的备份博客以免丢失，考虑到外部平台不受控、无备份、文章审核一直中等等等等各种因素，即日起本博客将迁移至 [个人新站点：https://gwl.xyz/](https://gwl.xyz/)，[本站点](https://my.oschina.net/gwlCode)不再维护。
@@ -17,4 +21,3 @@ permalink: /about/
 原博客地址：https://my.oschina.net/gwlCode
 
 感谢博客主题贡献者 [FromEndWorld](https://github.com/FromEndWorld/LOFFER)
-
