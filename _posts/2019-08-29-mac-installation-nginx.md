@@ -47,7 +47,3 @@ nginx的配置文件地址:
 ```
 /usr/local/etc/nginx/nginx.conf
 ```
-
-
-
-
