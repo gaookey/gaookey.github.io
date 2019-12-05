@@ -8,9 +8,9 @@ tags: [拉伸]
 comments: true
 ---
 
-###1
+### 1
 
-```objective-c
+```
 UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(80, 320, 180, 40)];
 [self.view addSubview:imageView];
 
@@ -37,9 +37,9 @@ image = [image resizableImageWithCapInsets:UIEdgeInsetsMake(topMode, leftMode, b
 imageView.image = image;
 ```
 
-###2
+### 2
 
-```objective-c
+```
 + (UIImage *)resizableImage:(NSString *)name {
     UIImage *image = [self imageNamed:name];
     return [image stretchableImageWithLeftCapWidth:image.size.width * 0.5 topCapHeight:image.size.height *0.5];

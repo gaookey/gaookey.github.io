@@ -16,13 +16,13 @@ comments: true
 
 导入 **[lottie-ios](https://github.com/airbnb/lottie-ios)** 库，objective-c项目添加版本号2.5
 
-```objective-c
+```
 pod 'lottie-ios' , '~> 2.5'
 ```
 
 导入头文件 `#import <Lottie/Lottie.h>` 即可使用
 
-```objective-c
+```
 LOTAnimationView *animation = [[LOTAnimationView alloc] initWithFrame:CGRectMake(200, 200, 200, 200)];
 animation.animation = @"11803-send-button";
 [self.view addSubview:animation];

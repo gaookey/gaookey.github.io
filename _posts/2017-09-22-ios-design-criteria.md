@@ -9,13 +9,13 @@ comments: true
 ---
 
 
-###官方地址：
+### 官方地址：
 
 [https://developer.apple.com/library/content/qa/qa1686/_index.html](https://developer.apple.com/library/content/qa/qa1686/_index.html)
 
 [https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/launch-screen/](https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/launch-screen/)
 
-###iPhone
+### iPhone
 
 |  **iPhone型号**  | **屏幕尺寸(英寸) ** | **开发尺寸(pt) ** | **像素尺寸(px)** |
 | :--------------: | :-----------------: | :---------------: | :--------------: |
@@ -31,7 +31,7 @@ comments: true
 |    **11 Pro**    |         5.8         |      375*812      |    1125*2436     |
 |  **11 Pro Max**  |         6.5         |      414*896      |    1242*2688     |
 
-###iPad
+### iPad
 
 |                     **iPad型号**                     | **屏幕尺寸(英寸)** | **开发尺寸(pt)** | **像素尺寸(px)** |
 | :--------------------------------------------------: | :----------------: | :--------------: | :--------------: |
