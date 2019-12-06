@@ -6,6 +6,7 @@ Author: gwl
 categories: java
 tags: [Tomcat, IDEA]
 comments: true
+toc: true
 ---
 
 > [Tomcat安装: https://gwl.xyz/Tomcat-installation/](https://gwl.xyz/Tomcat-installation/)
