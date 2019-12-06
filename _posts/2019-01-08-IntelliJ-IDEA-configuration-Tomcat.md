@@ -66,7 +66,7 @@ toc: true
 
 #### 配置文件web.xml
 
-> Schema参见 [https://my.oschina.net/gwlCode/blog/2995818](https://my.oschina.net/gwlCode/blog/2995818)
+> Schema参见 [https://gwl.xyz/dtd-constraint-schema-constraint/](https://gwl.xyz/dtd-constraint-schema-constraint/)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
