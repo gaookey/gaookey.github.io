@@ -8,7 +8,7 @@ tags: [MySQL]
 comments: true
 ---
 
-> [Windows下MySQL安装](https://my.oschina.net/gwlCode/blog/3001993)
+> [Windows下MySQL安装](https://gwl.xyz/windows-mysql-install/)
 
 ### 安装
 

@@ -8,7 +8,7 @@ tags: [MySQL]
 comments: true
 ---
 
-> [MAC下MySQL下载、安装、卸载](https://my.oschina.net/gwlCode/blog/2994087)
+> [MAC下MySQL下载、安装、卸载](https://gwl.xyz/mac-mysql-download-installation-uninstall/)
 
 ### 下载MySQL
 
