@@ -6,6 +6,7 @@ Author: gwl
 categories: 
 tags: [blog, migration, instructions]
 comments: true
+toc: true
 pinned: true
 ---
 
