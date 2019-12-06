@@ -8,8 +8,9 @@ tags: [Tomcat, IDEA]
 comments: true
 ---
 
-> [Tomcat安装及eclipse配置参见：https://my.oschina.net/gwlCode/blog/2996915#h1_11](https://my.oschina.net/gwlCode/blog/2996915#h1_11) 
-
+> [Tomcat安装: https://gwl.xyz/Tomcat-installation/](https://gwl.xyz/Tomcat-installation/)
+> [IntelliJ IDEA配置Tomcat: https://gwl.xyz/IntelliJ-IDEA-configuration-Tomcat/](https://gwl.xyz/IntelliJ-IDEA-configuration-Tomcat/)
+> [eclipse配置Tomcat: https://gwl.xyz/Eclipse-configuration-Tomcat/](https://gwl.xyz/Eclipse-configuration-Tomcat/)
 
 #### 创建工程
 

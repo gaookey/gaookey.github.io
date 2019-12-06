@@ -9,6 +9,11 @@ comments: true
 ---
 
 
+> [Tomcat安装: https://gwl.xyz/Tomcat-installation/](https://gwl.xyz/Tomcat-installation/)
+> [IntelliJ IDEA配置Tomcat: https://gwl.xyz/IntelliJ-IDEA-configuration-Tomcat/](https://gwl.xyz/IntelliJ-IDEA-configuration-Tomcat/)
+> [eclipse配置Tomcat: https://gwl.xyz/Eclipse-configuration-Tomcat/](https://gwl.xyz/Eclipse-configuration-Tomcat/)
+
+
 ### 下载
 
 登录Apache Tomcat官网，地址 [http://tomcat.apache.org](http://tomcat.apache.org) ，选择需要下载的版本。 
