@@ -11,11 +11,13 @@ comments: true
 
 #### 错误显示
 
+模拟器可以正常运行，真机出现如下错误:
+
 ![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-12-10-xcode-enable-bitcode/2019-12-10-xcode-enable-bitcode-01.png?raw=true)
 
 #### 问题分析
 
-从上述的错误中应该可以看出，这是因为一个第三方的库不兼容，我的工程中开启了 ENABLE_BITCODE （应该是升级之后自动转换的），而这个第三方的库在编译的时候没有 enable bitcode，所以导致上诉问题。
+由于第三方的库不兼容，我的工程中开启了 ENABLE_BITCODE （应该是升级之后自动转换的），而这个第三方的库在编译的时候没有 enable bitcode，所以导致上诉问题。
 
 #### 解决办法
 
