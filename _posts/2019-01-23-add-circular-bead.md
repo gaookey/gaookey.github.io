@@ -1,10 +1,10 @@
 ---
 layout: post
 title: iOS 图片、文字加圆角
-date: 2019-12-10
+date: 2019-01-23
 Author: gwl
 categories: iOS
-tags: [bitcode enabled]
+tags: [圆角]
 comments: true
 ---
 
