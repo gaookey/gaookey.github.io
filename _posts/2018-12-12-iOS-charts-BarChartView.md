@@ -11,13 +11,29 @@ comments: true
 
 > 最新代码更新于2019-12-31，[2018-12-12写的原文](https://my.oschina.net/gwlCode/blog/2987509)和现版本库稍微有些出入，BarChartView部分属性直接上代码
 
-> 纯OC工程，`pod 'Charts'` 报错，尝试新建一个swift类，生成桥接文件，继续执行 `pod install`即可
+添加 `Charts` 库
+```
+platform:ios,'10.0'
+
+inhibit_all_warnings!
+use_frameworks!
+
+target ‘iOS_Charts’ do
+
+pod 'Charts'
+#pod 'ChartsRealm'
+
+end
+```
+
+> 纯OC工程，`pod install` 报错，尝试新建一个swift类，生成桥接文件，继续执行 `pod install`即可
 >> 报错内容如下：
 >>> - `ChartsRealm` does not specify a Swift version and none of the targets (`iOS_Charts`) integrating it have the `SWIFT_VERSION` attribute set. Please contact the author or set the `SWIFT_VERSION` attribute in at least one of the targets that integrate this pod.
 >>> - `RealmSwift` does not specify a Swift version and none of the targets (`iOS_Charts`) integrating it have the `SWIFT_VERSION` attribute set. Please contact the author or set the `SWIFT_VERSION` attribute in at least one of the targets that integrate this pod.
 
 
 [本文demo地址：https://github.com/mouos/iOS_Charts](https://github.com/mouos/iOS_Charts)
+
 
 ### 代码
 
