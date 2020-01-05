@@ -17,12 +17,14 @@ Xcode 11.3
 
 macOS 10.15.2
 
+### 问题
+
 `pod install` 安装库的时候出现了以下问题
 
 > [!] CDN: trunk Repo update failed - 3 error(s):
->> CDN: trunk URL couldn't be downloaded: https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/a/7/5/AFNetworking/1.0/AFNetworking.podspec.json, error: Failed to open TCP connection to raw.githubusercontent.com:443 (Connection refused - connect(2) for "raw.githubusercontent.com" port 443)
->> CDN: trunk URL couldn't be downloaded: https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/a/7/5/AFNetworking/2.6.0/AFNetworking.podspec.json, error: Failed to open TCP connection to raw.githubusercontent.com:443 (Connection refused - connect(2) for "raw.githubusercontent.com" port 443)
->> CDN: trunk URL couldn't be downloaded: https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/a/7/5/AFNetworking/3.2.0/AFNetworking.podspec.json, error: Failed to open TCP connection to raw.githubusercontent.com:443 (Connection refused - connect(2) for "raw.githubusercontent.com" port 443)
+> CDN: trunk URL couldn't be downloaded: https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/a/7/5/AFNetworking/1.0/AFNetworking.podspec.json, error: Failed to open TCP connection to raw.githubusercontent.com:443 (Connection refused - connect(2) for "raw.githubusercontent.com" port 443)
+> CDN: trunk URL couldn't be downloaded: https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/a/7/5/AFNetworking/2.6.0/AFNetworking.podspec.json, error: Failed to open TCP connection to raw.githubusercontent.com:443 (Connection refused - connect(2) for "raw.githubusercontent.com" port 443)
+> CDN: trunk URL couldn't be downloaded: https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/a/7/5/AFNetworking/3.2.0/AFNetworking.podspec.json, error: Failed to open TCP connection to raw.githubusercontent.com:443 (Connection refused - connect(2) for "raw.githubusercontent.com" port 443)
 
 
 关于CDN的引入请看[CocoaPods官方介绍：http://blog.cocoapods.org/CocoaPods-1.8.0-beta/](http://blog.cocoapods.org/CocoaPods-1.8.0-beta/)
