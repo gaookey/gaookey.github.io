@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iOS - [!] CDN: trunk Repo update failed - 3 error(s):
+title: CDN: trunk Repo update failed - 3 error(s):
 date: 2020-01-05
 Author: gwl
 categories: iOS
