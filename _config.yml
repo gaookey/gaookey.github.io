@@ -7,7 +7,7 @@
 # 井号后面的文字是说明文档，不会被程序读取。
 name: gwl
 # 描述/签名
-description: https://gwl.xyz/
+description: 再努力一点点
 
 #
 # 下面的设定都是可选的
@@ -36,13 +36,13 @@ paginate: 2000
 
 # 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
 footer-links: 
-  weibo: #请输入你的微博个性域名 https://www.weibo.com/<thispart>
+  weibo: couos #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<>
   dribbble: # https://dribbble.com/<>
-  email: gao.wenli@foxmail.com 
+  email: swiftprimer@gmail.com
   facebook: #https://www.facebook.com/<>
   flickr: #https://www.flickr.com/<>
-  github: mouos/mouos.github.io #https://github.com/<>
+  github: mouos #https://github.com/<>
   instagram: #https://instagram.com/<>
   linkedin: #https://www.linkedin.com/in/<>
   pinterest: #https://www.pinterest.com/<>
