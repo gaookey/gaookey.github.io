@@ -6,6 +6,7 @@ Author: gwl
 categories: 
 tags: [Database]
 comments: true
+toc: true
 ---
 
 ### 数据库操作
@@ -105,7 +106,7 @@ root为用户gwl授权，用户gwl可以操作数据库mydatabase下的所有表
         sname VARCHAR(100)
     );
 ```
-	
+
 #### 查看表
 
 ```
@@ -292,7 +293,7 @@ distinct用于去除重复记录
 例如:将所有账务的金额+10000元进行显示.
     select pname,price+10000 from product;
 ```
-	
+
 #### 条件查询
 
 ```

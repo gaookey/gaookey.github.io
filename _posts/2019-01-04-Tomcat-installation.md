@@ -6,6 +6,7 @@ Author: gwl
 categories: java
 tags: [Tomcat]
 comments: true
+toc: true
 ---
 
 
@@ -20,7 +21,7 @@ comments: true
 
 登录Apache Tomcat官网，地址 [http://tomcat.apache.org](http://tomcat.apache.org) ，选择需要下载的版本。 
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-01-04-Tomcat-installation/2019-01-04-Tomcat-installation-01.jpg?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-04-Tomcat-installation-01.jpg)
 
 把下载下来的包解压到合适的位置
 
@@ -46,7 +47,7 @@ cd /Users/mac/apache-tomcat-9.0.14/bin
 sudo chmod 755 *.sh
 ```
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-01-04-Tomcat-installation/2019-01-04-Tomcat-installation-02.jpg?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-04-Tomcat-installation-02.jpg)
 
 再次启动
 
@@ -54,7 +55,7 @@ sudo chmod 755 *.sh
 ./startup.sh
 ```
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-01-04-Tomcat-installation/2019-01-04-Tomcat-installation-03.jpg?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-04-Tomcat-installation-03.jpg)
 
 #### 关闭Tomcat
 
@@ -64,7 +65,7 @@ sudo chmod 755 *.sh
 ./shutdown.sh
 ```
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-01-04-Tomcat-installation/2019-01-04-Tomcat-installation-04.jpg?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-04-Tomcat-installation-04.jpg)
 
 
 ### Windows安装方式
@@ -73,9 +74,9 @@ sudo chmod 755 *.sh
 
 计算机 -> 属性 -> 高级系统设置 -> 高级 -> 环境变量，在系统变量中添加 TOMCAT_HOME 和 CATALINA_HOME
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-01-04-Tomcat-installation/2019-01-04-Tomcat-installation-05.jpg?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-04-Tomcat-installation-05.jpg)
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-01-04-Tomcat-installation/2019-01-04-Tomcat-installation-06.jpg?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-04-Tomcat-installation-06.jpg)
 
 修改系统变量Path，在末尾添加如下内容
 `;%TOMCAT_HOME%\bin;%CATALINA_HOME%\lib`
@@ -84,19 +85,19 @@ sudo chmod 755 *.sh
 
 在cmd命令窗口下输入 `startup` 回车，运行如下图所示
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-01-04-Tomcat-installation/2019-01-04-Tomcat-installation-07.jpg?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-04-Tomcat-installation-07.jpg)
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-01-04-Tomcat-installation/2019-01-04-Tomcat-installation-08.jpg?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-04-Tomcat-installation-08.jpg)
 
 如下图显示，则是未安装jdk
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-01-04-Tomcat-installation/2019-01-04-Tomcat-installation-09.jpg?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-04-Tomcat-installation-09.jpg)
 
 #### 验证
 
 打开我们的浏览器，然后网址输入 [http://localhost:8080/](http://localhost:8080/)，如果出现下图页面，则证明配置成功 
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-01-04-Tomcat-installation/2019-01-04-Tomcat-installation-10.jpg?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-04-Tomcat-installation-10.jpg)
 
 
 

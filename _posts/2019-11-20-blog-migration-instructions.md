@@ -8,6 +8,7 @@ tags: [blog, migration, instructions]
 comments: true
 toc: true
 pinned: true
+toc: true
 ---
 
 
@@ -18,3 +19,4 @@ pinned: true
 本站点地址：[https://gwl.xyz/](https://gwl.xyz/)
 
 当然，也可以访问这个域名：[https://mouos.github.io](https://mouos.github.io/)
+

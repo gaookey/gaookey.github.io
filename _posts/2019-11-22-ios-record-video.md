@@ -6,6 +6,7 @@ Author: gwl
 categories: iOS
 tags: [UIImagePickerController]
 comments: true
+toc: true
 ---
 
 

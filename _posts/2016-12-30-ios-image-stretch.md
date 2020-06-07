@@ -6,6 +6,7 @@ Author: gwl
 categories: iOS
 tags: [拉伸]
 comments: true
+toc: true
 ---
 
 ### 1
@@ -48,4 +49,4 @@ imageView.image = image;
 
 ### 3
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2016-12-30-ios-image-stretch/2016-12-30-ios-image-stretch-01.png?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2016-12-30-ios-image-stretch-01.png)

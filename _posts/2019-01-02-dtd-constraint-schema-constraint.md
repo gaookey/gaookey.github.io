@@ -6,6 +6,7 @@ Author: gwl
 categories: java
 tags: [DTD, Schema]
 comments: true
+toc: true
 ---
 
 ### DTD

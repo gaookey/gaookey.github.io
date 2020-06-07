@@ -6,6 +6,7 @@ Author: gwl
 categories: iOS
 tags: [mac]
 comments: true
+toc: true
 ---
 
 

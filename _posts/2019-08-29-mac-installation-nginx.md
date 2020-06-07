@@ -6,6 +6,7 @@ Author: gwl
 categories: 
 tags: [nginx]
 comments: true
+toc: true
 ---
 
 
@@ -26,7 +27,7 @@ brew search nginx
 brew info nginx
 ```
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-08-29-mac-installation-nginx/2019-08-29-mac-installation-nginx-01.png?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-08-29-mac-installation-nginx-01.png)
 
 ```
 brew install nginx
@@ -40,7 +41,7 @@ nginx
 
 浏览器输入 [http://localhost:8080/](http://localhost:8080/)
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-08-29-mac-installation-nginx/2019-08-29-mac-installation-nginx-02.png?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-08-29-mac-installation-nginx-02.png)
 
 nginx的配置文件地址:
 

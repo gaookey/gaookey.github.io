@@ -6,6 +6,7 @@ Author: gwl
 categories: iOS
 tags: [js]
 comments: true
+toc: true
 ---
 
 
@@ -72,7 +73,8 @@ comments: true
 ```
 
 > 方法名 和 mobileObj 必须和js里面的一样
->> 附上js部分代码
+>
+> > 附上js部分代码
 
 ```
 document.getElementById("bt_login").onclick = function(){

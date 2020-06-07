@@ -5,19 +5,29 @@
 # 你的博客名称，请用你想要的博客名替换“LOFFER”，以下修改都可类似处理
 # 注意，“name: LOFFER”，冒号后面的空格不可以省略。
 # 井号后面的文字是说明文档，不会被程序读取。
-name: gwl
+
 # 描述/签名
+name: swiftprimer
 description: 再努力一点点
+
+# 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
+url: http://swiftprimer.com/
+
+# 添加你的博客的二级域名，一般来说是你的repository名
+# 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
+# 那么就写成 "/repository-name"
+#baseurl: /LOFFER
+
 
 #
 # 下面的设定都是可选的
 #
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: https://github.com/mouos/mouos.github.io/blob/master/images/base/logo.png?raw=true
+avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://github.com/mouos/mouos.github.io/blob/master/images/base/favicon.png?raw=true
+favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/favicon.png
 
 
 # 菜单中的按钮
@@ -32,7 +42,10 @@ navigation:
     url: /tags
 
 # 每页的文章数
-paginate: 2000
+paginate: 1000
+
+# 文章简介的区分标记
+excerpt_separator: <!-- more -->
 
 # 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
 footer-links: 
@@ -53,21 +66,24 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # 站点页脚的文字
-footer-text: Copyright © 2019 gwl. All rights reserved.
+footer-text: Copyright (c) 2020 mouos. All rights reserved.
 
-# 输入Disqus shortname，即可添加评论区，细节可阅读文档。
-disqus: #shortname
+#
+# 评论，注意，请不要同时添加多种不同的评论区
+#
+
+# 输入Disqus shortname，即可添加评论区
+disqus: loffer #shortname
+
+# 输入Gitalk相关设定，即可添加评论区，具体请看教程
+gitalk:
+  clientID: 
+  clientSecret: 
+  repo: 
+  owner: 
 
 # 输入Google Analytics web tracking code
 google_analytics:
-
-# 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
-url: 
-
-# 添加你的博客的二级域名，一般来说是你的repository名
-# 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
-# 那么就写成 "/repository-name"
-baseurl: 
 
 
 #
@@ -108,4 +124,3 @@ exclude:
   - README.md
   - CNAME
 
-excerpt_separator: ---

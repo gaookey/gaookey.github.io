@@ -6,6 +6,7 @@ Author: gwl
 categories: 
 tags: [mac]
 comments: true
+toc: true
 ---
 
 

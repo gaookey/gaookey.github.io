@@ -6,6 +6,7 @@ Author: gwl
 categories: iOS
 tags: [bitcode enabled]
 comments: true
+toc: true
 ---
 
 
@@ -13,7 +14,7 @@ comments: true
 
 模拟器可以正常运行，真机出现如下错误:
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-12-10-xcode-enable-bitcode/2019-12-10-xcode-enable-bitcode-01.png?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-12-10-xcode-enable-bitcode-01.png)
 
 #### 问题分析
 
@@ -29,4 +30,4 @@ comments: true
 
 Build Setting -> Enable Bitcode 设置为 NO
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-12-10-xcode-enable-bitcode/2019-12-10-xcode-enable-bitcode-02.png?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-12-10-xcode-enable-bitcode-02.png)

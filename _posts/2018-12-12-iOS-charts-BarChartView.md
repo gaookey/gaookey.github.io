@@ -6,6 +6,7 @@ Author: gwl
 categories: iOS
 tags: [charts, BarChartView]
 comments: true
+toc: true
 ---
 
 

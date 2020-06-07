@@ -6,13 +6,14 @@ Author: gwl
 categories: iOS
 tags: [lottie, lottiefiles]
 comments: true
+toc: true
 ---
 
 
 
 [LottieFiles 网站](https://lottiefiles.com/) 下载动画的 LottieFile  JSON 文件添加到项目中
 
-![img](https://github.com/mouos/mouos.github.io/blob/master/images/article_images/2019-11-29-ios-lottie-animation/2019-11-29-ios-lottie-animation-01.png?raw=true)
+![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-11-29-ios-lottie-animation-01.png)
 
 导入 **[lottie-ios](https://github.com/airbnb/lottie-ios)** 库，objective-c项目添加版本号2.5
 
