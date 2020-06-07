@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iOS - Lottie动画
+title: iOS Lottie动画
 date: 2019-11-29
 Author: gwl
 categories: iOS
@@ -23,7 +23,7 @@ pod 'lottie-ios' , '~> 2.5'
 
 导入头文件 `#import <Lottie/Lottie.h>` 即可使用
 
-```
+```objective-c
 LOTAnimationView *animation = [[LOTAnimationView alloc] initWithFrame:CGRectMake(200, 200, 200, 200)];
 animation.animation = @"11803-send-button";
 [self.view addSubview:animation];

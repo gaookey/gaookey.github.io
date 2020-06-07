@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iOS - 图片拉伸
+title: iOS 图片拉伸
 date: 2016-12-30
 Author: gwl
 categories: iOS
@@ -11,7 +11,7 @@ toc: true
 
 ### 1
 
-```
+```objective-c
 UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(80, 320, 180, 40)];
 [self.view addSubview:imageView];
 
@@ -40,7 +40,7 @@ imageView.image = image;
 
 ### 2
 
-```
+```objective-c
 + (UIImage *)resizableImage:(NSString *)name {
     UIImage *image = [self imageNamed:name];
     return [image stretchableImageWithLeftCapWidth:image.size.width * 0.5 topCapHeight:image.size.height *0.5];

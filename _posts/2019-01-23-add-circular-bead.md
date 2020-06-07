@@ -11,7 +11,7 @@ toc: true
 
 ### 图片
 
-```
+```objective-c
 #import "UIImageView+CircleImage.h"
 
 @implementation UIImageView (CircleImage)
@@ -39,7 +39,7 @@ toc: true
 @end
 ```
 
-```
+```objective-c
 #import "UIImage+CircleImage.h"
 
 @implementation UIImage (CircleImage)
@@ -65,7 +65,7 @@ toc: true
 
 ### 文字
 
-```
+```objective-c
 UILabel *lable = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
 lable.text = @"测试文本";
 lable.backgroundColor = [UIColor cyanColor];

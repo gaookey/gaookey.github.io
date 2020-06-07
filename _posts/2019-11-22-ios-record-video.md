@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用UIImagePickerController录制视频
+title: iOS 使用UIImagePickerController录制视频
 date: 2019-11-22
 Author: gwl
 categories: iOS
@@ -11,17 +11,17 @@ toc: true
 
 
 导入头文件
-```
+```objective-c
 #import <CoreServices/CoreServices.h>
 #import <AVFoundation/AVFoundation.h>
 ```
 
 代理
-```
+```objective-c
 <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 ```
 
-```
+```objective-c
 - (void)recordVideo {
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
     if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {

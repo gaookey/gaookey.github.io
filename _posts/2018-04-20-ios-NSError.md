@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ios - NSError
+title: ios NSError
 date: 2018-04-20
 Author: gwl
 categories: iOS

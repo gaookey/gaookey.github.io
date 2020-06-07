@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iOS - cocoapods/pod
+title: iOS cocoapods/pod
 date: 2018-09-29
 Author: gwl
 categories: iOS
@@ -9,7 +9,7 @@ comments: true
 toc: true
 ---
 
-```
+```objective-c
 platform :ios, '9.0' #版本
 
 use_frameworks! #OC和swift混编时添加
@@ -26,21 +26,21 @@ end
 ```
 
 把Podfile内全部的库更新重新安装
-```
+```objective-c
 pod install
 ```
 
 更新指定第三方库
-```
+```objective-c
 pod update 库名
 ```
 
 该命令只安装新添加的库，已更新的库忽略
-```
+```objective-c
 pod install --verbose --no-repo-update
 ```
 
 该命令只更新指定的库，其它库忽略
-```
+```objective-c
 pod update 库名--verbose --no-repo-update
 ```

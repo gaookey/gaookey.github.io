@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iOS - 九宫格布局
+title: iOS 九宫格布局
 date: 2016-12-23
 Author: gwl
 categories: iOS
@@ -9,7 +9,7 @@ comments: true
 toc: true
 ---
 
-```
+```objective-c
 CGFloat y = 50;// y轴 起始位置
 CGFloat rows = 5;// 行数
 CGFloat xSpace = 20;// 纵间距
