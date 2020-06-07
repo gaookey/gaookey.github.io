@@ -6,6 +6,7 @@ Author: gwl
 categories: 
 tags: [Sequel]
 comments: true
+toc: true
 ---
 
 
