@@ -10,7 +10,7 @@ toc: true
 ---
 
 
-```
+```objective-c
 NSError *error = [[NSError alloc] initWithDomain:@"testDomain"
                                             code:9998
                                         userInfo:@{NSLocalizedDescriptionKey:@"错误描述",
@@ -38,3 +38,4 @@ NSString *localizedFailureReason = userInfo[NSLocalizedFailureReasonErrorKey];
 NSString *localizedRecoverySuggestion = userInfo[NSLocalizedRecoverySuggestionErrorKey];
 NSArray *localizedRecoveryOptions = userInfo[NSLocalizedRecoveryOptionsErrorKey];
 ```
+
