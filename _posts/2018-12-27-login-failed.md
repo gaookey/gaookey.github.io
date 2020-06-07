@@ -6,7 +6,10 @@ Author: gwl
 categories: 
 tags: [Sequel]
 comments: true
+<<<<<<< HEAD
 toc: true
+=======
+>>>>>>> 10f11f22ce6e595c3f529effbbab6b4329e0195b
 ---
 
 
