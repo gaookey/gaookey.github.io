@@ -9,7 +9,7 @@ comments: true
 toc: true
 ---
 
-> [Windows下MySQL安装](https://gwl.xyz/windows-mysql-install/)
+> [Windows下MySQL安装](https://swiftprimer.com/windows-mysql-install/)
 
 ### 安装
 

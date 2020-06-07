@@ -9,11 +9,11 @@ comments: true
 toc: true
 ---
 
-> [Tomcat安装: https://gwl.xyz/Tomcat-installation/](https://gwl.xyz/Tomcat-installation/)
+> [Tomcat安装: https://swiftprimer.com/Tomcat-installation/](https://swiftprimer.com/Tomcat-installation/)
 
-> [IntelliJ IDEA配置Tomcat: https://gwl.xyz/IntelliJ-IDEA-configuration-Tomcat/](https://gwl.xyz/IntelliJ-IDEA-configuration-Tomcat/)
+> [IntelliJ IDEA配置Tomcat: https://swiftprimer.com/IntelliJ-IDEA-configuration-Tomcat/](https://swiftprimer.com/IntelliJ-IDEA-configuration-Tomcat/)
 
-> [eclipse配置Tomcat: https://gwl.xyz/Eclipse-configuration-Tomcat/](https://gwl.xyz/Eclipse-configuration-Tomcat/)
+> [eclipse配置Tomcat: https://swiftprimer.com/Eclipse-configuration-Tomcat/](https://swiftprimer.com/Eclipse-configuration-Tomcat/)
 
 #### 创建工程
 
@@ -66,7 +66,7 @@ toc: true
 
 #### 配置文件web.xml
 
-> Schema参见 [https://gwl.xyz/dtd-constraint-schema-constraint/](https://gwl.xyz/dtd-constraint-schema-constraint/)
+> Schema参见 [https://swiftprimer.com/dtd-constraint-schema-constraint/](https://swiftprimer.com/dtd-constraint-schema-constraint/)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

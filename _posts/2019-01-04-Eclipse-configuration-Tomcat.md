@@ -10,11 +10,11 @@ toc: true
 ---
 
 
-> [Tomcat安装: https://gwl.xyz/Tomcat-installation/](https://gwl.xyz/Tomcat-installation/)
+> [Tomcat安装: https://swiftprimer.com/Tomcat-installation/](https://swiftprimer.com/Tomcat-installation/)
 
-> [IntelliJ IDEA配置Tomcat: https://gwl.xyz/IntelliJ-IDEA-configuration-Tomcat/](https://gwl.xyz/IntelliJ-IDEA-configuration-Tomcat/)
+> [IntelliJ IDEA配置Tomcat: https://swiftprimer.com/IntelliJ-IDEA-configuration-Tomcat/](https://swiftprimer.com/IntelliJ-IDEA-configuration-Tomcat/)
 
-> [eclipse配置Tomcat: https://gwl.xyz/Eclipse-configuration-Tomcat/](https://gwl.xyz/Eclipse-configuration-Tomcat/)
+> [eclipse配置Tomcat: https://swiftprimer.com/Eclipse-configuration-Tomcat/](https://swiftprimer.com/Eclipse-configuration-Tomcat/)
 
 
 ### eclipse和tomcat绑定

@@ -9,7 +9,7 @@ comments: true
 toc: true
 ---
 
-> [MAC下MySQL下载、安装、卸载](https://gwl.xyz/mac-mysql-download-installation-uninstall/)
+> [MAC下MySQL下载、安装、卸载](https://swiftprimer.com/mac-mysql-download-installation-uninstall/)
 
 ### 下载MySQL
 
