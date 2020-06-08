@@ -5,7 +5,7 @@ date: 2018-12-27
 Author: gwl
 categories: MySQL
 tags: [MySQL]
-comments: true
+comments: false
 toc: true
 ---
 

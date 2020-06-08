@@ -5,7 +5,7 @@ date: 2019-11-21
 Author: gwl
 categories: iOS
 tags: [xcode, simulator]
-comments: true
+comments: false
 toc: true
 ---
 

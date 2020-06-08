@@ -5,7 +5,7 @@ date: 2019-12-10
 Author: gwl
 categories: iOS
 tags: [bitcode enabled]
-comments: true
+comments: false
 toc: true
 ---
 

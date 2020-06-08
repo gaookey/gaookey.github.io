@@ -5,7 +5,7 @@ date: 2019-11-20
 Author: gwl
 categories: 
 tags: [blog, migration, instructions]
-comments: true
+comments: false
 toc: true
 pinned: true
 toc: true

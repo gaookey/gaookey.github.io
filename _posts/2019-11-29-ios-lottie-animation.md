@@ -5,7 +5,7 @@ date: 2019-11-29
 Author: gwl
 categories: iOS
 tags: [lottie, lottiefiles]
-comments: true
+comments: false
 toc: true
 ---
 
