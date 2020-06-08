@@ -11,8 +11,8 @@ toc: true
 
 Xocde会自带一个模拟器，且都是随安装包一起打包的，比如Xcode11的就自带iOS13的模拟器，这个是没办法删除。我们可以在 Xcode/Prefrences/Components 中下载不同版本的模拟器。
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-11-21-xcode-removes-redundant-emulators-01.png)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-11-21-xcode-removes-redundant-emulators-01.png)
 
 下载后的模拟器在目录为 `/资源库/Developer/CoreSimulator/Profiles/Runtimes/` 该文件夹下放置的就是我们下载的不同版本的模拟器,选中你想删除的删除即可
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-11-21-xcode-removes-redundant-emulators-02.png)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-11-21-xcode-removes-redundant-emulators-02.png)

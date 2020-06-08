@@ -49,4 +49,4 @@ imageView.image = image;
 
 ### 3
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2016-12-30-ios-image-stretch-01.png)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2016-12-30-ios-image-stretch-01.png)

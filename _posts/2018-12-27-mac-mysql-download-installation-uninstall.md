@@ -15,25 +15,25 @@ toc: true
 
 [MySQL下载地址：https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2018-12-27-mac-mysql-download-installation-uninstall-01.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2018-12-27-mac-mysql-download-installation-uninstall-01.jpg)
 
 选择系统版本下载，点击Looking for previous GA versions?可下载旧版本，选择5.7.24即可，6.0后的收费
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2018-12-27-mac-mysql-download-installation-uninstall-02.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2018-12-27-mac-mysql-download-installation-uninstall-02.jpg)
 
 选择No thanks, just start my download.直接下载，打开下载的文件安装
 
 安装成功后提示：
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2018-12-27-mac-mysql-download-installation-uninstall-03.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2018-12-27-mac-mysql-download-installation-uninstall-03.jpg)
 
 localhost:后为默认的密码。系统偏好设置查看MySQL
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2018-12-27-mac-mysql-download-installation-uninstall-04.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2018-12-27-mac-mysql-download-installation-uninstall-04.jpg)
 
 点击后, 启动MySQL 
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2018-12-27-mac-mysql-download-installation-uninstall-05.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2018-12-27-mac-mysql-download-installation-uninstall-05.jpg)
 
 ### 修改数据库密码
 
@@ -71,11 +71,11 @@ root123是我的新密码,自行修改成自己想要设置的密码
 
 我们也可以从mac通知栏当中来去查看，下图当中就是自动生成一个数据库密码
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2018-12-27-mac-mysql-download-installation-uninstall-06.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2018-12-27-mac-mysql-download-installation-uninstall-06.jpg)
 
 看到如下信息,修改成功
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2018-12-27-mac-mysql-download-installation-uninstall-07.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2018-12-27-mac-mysql-download-installation-uninstall-07.jpg)
 
 接下来执行以下指令:
 
@@ -87,7 +87,7 @@ mysql -u root -p
 
 看到如下信息,全部说明已经进入数据库当中
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2018-12-27-mac-mysql-download-installation-uninstall-08.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2018-12-27-mac-mysql-download-installation-uninstall-08.jpg)
 
 
 ### 卸载

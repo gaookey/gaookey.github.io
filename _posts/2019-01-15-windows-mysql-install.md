@@ -17,11 +17,11 @@ toc: true
 
 选择对应的操作系统和版本下载，Looking for previous GA versions? 选择旧版本（5.7.24）
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-15-windows-mysql-install-01.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-01-15-windows-mysql-install-01.jpg)
 
 解压下载的文件到mysql目录 （D:\mysql），解压后的目录结构为
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-15-windows-mysql-install-02.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-01-15-windows-mysql-install-02.jpg)
 
 在 D:\mysql\mysql-5.7.25-winx64 目录下新建my.ini文件，复制如下内容
 
@@ -75,11 +75,11 @@ mysqld --install
 
 如果安装失败，提示如下，则网上下载 msvcr120.dll 文件，放在C:\Windows\System32目录下，或者直接下载 [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/zh-CN/download/details.aspx?id=40784) 安装
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-15-windows-mysql-install-03.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-01-15-windows-mysql-install-03.jpg)
 
 如果已存在mysql，则提示
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-15-windows-mysql-install-04.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-01-15-windows-mysql-install-04.jpg)
 
 可执行删除命令移除，成功后再次运行安装命令 mysqld --install
 
@@ -87,11 +87,11 @@ mysqld --install
 mysqld --remove
 ```
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-15-windows-mysql-install-05.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-01-15-windows-mysql-install-05.jpg)
 
 安装成功
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-15-windows-mysql-install-06.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-01-15-windows-mysql-install-06.jpg)
 
 生成data目录
 
@@ -99,7 +99,7 @@ mysqld --remove
 mysqld --initialize
 ```
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-15-windows-mysql-install-07.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-01-15-windows-mysql-install-07.jpg)
 
 启动服务
 
@@ -109,11 +109,11 @@ net start mysql
 
 如果启动服务失败，遇到如下情况，则 右键点击 我的电脑->属性->高级系统设置->环境变量->系统变量，编辑 Path－将 C:\Windows\System32 添加进去（;分开）－确定
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-15-windows-mysql-install-08.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-01-15-windows-mysql-install-08.jpg)
 
 关闭cmd，重新以管理员身份运行，cd到bin目录下重新执行 net start mysql
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-15-windows-mysql-install-09.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-01-15-windows-mysql-install-09.jpg)
 
 停止服务
 
@@ -121,7 +121,7 @@ net start mysql
 net stop mysql
 ```
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-15-windows-mysql-install-10.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-01-15-windows-mysql-install-10.jpg)
 
 开启无密码的MySQL Server
 
@@ -131,7 +131,7 @@ mysqld --skip-grant-tables
 
 先停止服务再执行开启无密码，不然出现以下错误
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-15-windows-mysql-install-11.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-01-15-windows-mysql-install-11.jpg)
 
 新开一个终端，输入mysql -u root -p进入mysql，回车键无需敲入密码
 
@@ -139,7 +139,7 @@ mysqld --skip-grant-tables
 mysql -u root -p
 ```
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-01-15-windows-mysql-install-12.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-01-15-windows-mysql-install-12.jpg)
 
  然后更新root账户的密码为'123456'
 

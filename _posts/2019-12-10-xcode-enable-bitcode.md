@@ -14,7 +14,7 @@ toc: true
 
 模拟器可以正常运行，真机出现如下错误:
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-12-10-xcode-enable-bitcode-01.png)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-12-10-xcode-enable-bitcode-01.png)
 
 #### 问题分析
 
@@ -30,4 +30,4 @@ toc: true
 
 Build Setting -> Enable Bitcode 设置为 NO
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-12-10-xcode-enable-bitcode-02.png)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-12-10-xcode-enable-bitcode-02.png)

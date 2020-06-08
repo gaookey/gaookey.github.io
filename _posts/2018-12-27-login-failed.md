@@ -27,12 +27,12 @@ toc: true
 
 1.打开系统偏好设置，找到mysql，点击Initialize Database。
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2018-12-27-login-failed-01.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2018-12-27-login-failed-01.jpg)
 
 2.输入你的新密码，记住这个密码，用于后期链接数据库的登陆使用，选择‘Use legacy password‘。
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2018-12-27-login-failed-02.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2018-12-27-login-failed-02.jpg)
 
 3.重启mysql服务，使用sequel Pro链接。
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2018-12-27-login-failed-03.jpg)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2018-12-27-login-failed-03.jpg)

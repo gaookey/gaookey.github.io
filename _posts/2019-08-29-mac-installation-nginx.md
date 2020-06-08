@@ -27,7 +27,7 @@ brew search nginx
 brew info nginx
 ```
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-08-29-mac-installation-nginx-01.png)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-08-29-mac-installation-nginx-01.png)
 
 ```
 brew install nginx
@@ -41,7 +41,7 @@ nginx
 
 浏览器输入 [http://localhost:8080/](http://localhost:8080/)
 
-![img](https://github.com/mouos/image-hosting-service/raw/master/images/2019-08-29-mac-installation-nginx-02.png)
+![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2019-08-29-mac-installation-nginx-02.png)
 
 nginx的配置文件地址:
 
