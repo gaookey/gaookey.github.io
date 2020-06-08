@@ -73,7 +73,7 @@ footer-text: Copyright (c) 2020 mouos. All rights reserved.
 #
 
 # 输入Disqus shortname，即可添加评论区
-disqus: loffer #shortname
+#disqus: loffer #shortname
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
