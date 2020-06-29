@@ -9,17 +9,37 @@ comments: false
 toc: true
 ---
 
-```objective-c
-CGFloat y = 50;// y轴 起始位置
-CGFloat rows = 5;// 行数
-CGFloat xSpace = 20;// 纵间距
-CGFloat ySpace = 30;// 横间距
-CGFloat w = ([UIScreen mainScreen].bounds.size.width - (rows + 1) * xSpace) / rows;// 控件宽
-CGFloat h = 30;// 控件高
+```objectivec
+CGFloat y = 50;
+CGFloat rows = 5;
+CGFloat xSpace = 25;
+CGFloat ySpace = 25;
+CGFloat width = ([UIScreen mainScreen].bounds.size.width - (rows + 1) * xSpace) / rows;
+CGFloat height = 100;
 
-for (int i = 0; i < 13; i ++) {
-    UIView *v = [[UIView alloc] initWithFrame:CGRectMake( xSpace + (i % (int)rows) * (xSpace + w), y + (i / (int)rows) * ( ySpace + h), w, h)];
-    v.backgroundColor = [UIColor redColor];
+for (NSInteger i = 0; i <= 10; i ++) {
+    UIView *v = [[UIView alloc] init];
+    v.frame = CGRectMake(xSpace + (i % (int)rows) * (xSpace + width), y + (i / (int)rows) * (ySpace + height), width, height);
+    v.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:v];
 }
 ```
+
+
+
+```swift
+let y: CGFloat = 50
+let rows: CGFloat = 5
+let xSpace: CGFloat = 25
+let ySpace: CGFloat = 25
+let width: CGFloat = (UIScreen.main.bounds.size.width - (rows + 1) * xSpace) / rows
+let height: CGFloat = 100
+
+for i in 0...10 {
+    let v = UIView()
+    v.frame = CGRect(x: xSpace + (CGFloat(i).truncatingRemainder(dividingBy: rows)) * (xSpace + width), y: y + CGFloat(i / Int(rows)) * (ySpace + height), width: width, height: height)
+    v.backgroundColor = .orange
+    view.addSubview(v)
+}
+```
+

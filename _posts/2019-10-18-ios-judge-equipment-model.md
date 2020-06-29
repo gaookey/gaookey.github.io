@@ -16,13 +16,12 @@ toc: true
 
 导入头文件
 
-```objective-c
+```objectivec
 #include <sys/sysctl.h>
 ```
 
-![img](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
 
-```objective-c
+```objectivec
 - (NSString *)modelsString {
     size_t size;
     int nR = sysctlbyname("hw.machine", NULL, &size, NULL, 0);
@@ -35,7 +34,6 @@ toc: true
 }
 ```
 
-![img](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
 
 ### SPDeviceModels
 
@@ -45,7 +43,7 @@ iOS 设备型号判断
 
 部分代码如下，最新代码移步 [github](https://github.com/mouos/GWLDeviceModels)
 
-```objective-c
+```objectivec
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -70,9 +68,8 @@ typedef NS_ENUM(NSInteger, DeviceModelsType) {
 NS_ASSUME_NONNULL_END
 ```
 
-![img](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
 
-```objective-c
+```objectivec
 #import "SPDeviceModels.h"
 #include <sys/sysctl.h>
 

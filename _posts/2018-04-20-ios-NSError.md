@@ -10,7 +10,7 @@ toc: true
 ---
 
 
-```objective-c
+```objectivec
 NSError *error = [[NSError alloc] initWithDomain:@"testDomain"
                                             code:9998
                                         userInfo:@{NSLocalizedDescriptionKey:@"错误描述",

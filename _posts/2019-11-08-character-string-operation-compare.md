@@ -10,7 +10,7 @@ toc: true
 ---
 
 
-```objective-c
+```objectivec
 #import "DecimalNumberHandler.h"
 
 @implementation DecimalNumberHandler

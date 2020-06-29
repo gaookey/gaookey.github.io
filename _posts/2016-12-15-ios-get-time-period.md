@@ -13,7 +13,7 @@ toc: true
 
 
 
-```objective-c
+```objectivec
 /// 18:00:00 -> 18   /   18:00:01 -> 19
 - (NSInteger)getTimePeriod:(NSDate *)date {
     for (NSInteger i = 1; i <= 24; i ++) {

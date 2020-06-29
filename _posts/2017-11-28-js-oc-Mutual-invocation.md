@@ -14,7 +14,7 @@ toc: true
 
 ##### .h
 
-```objective-c
+```objectivec
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <JavaScriptCore/JavaScriptCore.h>
@@ -40,7 +40,7 @@ toc: true
 
 ##### .m
 
-```objective-c
+```objectivec
 #import "ServerJS.h"
 
 @implementation ServerJS
@@ -63,7 +63,7 @@ toc: true
 
 ##### 使用
 
-```objective-c
+```objectivec
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
     JSContext *context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
 
@@ -76,7 +76,7 @@ toc: true
 >
 > > 附上js部分代码
 
-```objective-c
+```objectivec
 document.getElementById("bt_login").onclick = function(){
     if (!mobileObj.userLogin(nc_vok,
                              document.getElementById('csessionid').value,
