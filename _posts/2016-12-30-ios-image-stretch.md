@@ -9,7 +9,7 @@ comments: false
 toc: true
 ---
 
-### 1
+### 方法1
 
 ```objectivec
 UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(80, 320, 180, 40)];
@@ -38,7 +38,7 @@ image = [image resizableImageWithCapInsets:UIEdgeInsetsMake(topMode, leftMode, b
 imageView.image = image;
 ```
 
-### 2
+### 方法2
 
 ```objectivec
 + (UIImage *)resizableImage:(NSString *)name {
@@ -47,6 +47,6 @@ imageView.image = image;
 }
 ```
 
-### 3
+### 方法3
 
 ![img](https://github.com/mouos/mouos.github.io/raw/master/images/articleImages/2016-12-30-ios-image-stretch-01.png)
