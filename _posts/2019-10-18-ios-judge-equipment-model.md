@@ -10,94 +10,182 @@ toc: true
 ---
 
 
-### 判断型号
+#### 判断型号
 
-> https://www.theiphonewiki.com/wiki/Models#cite_note-china-1
+> [https://www.theiphonewiki.com/wiki/Models#cite_note-china-1](https://www.theiphonewiki.com/wiki/Models#cite_note-china-1)
 
-导入头文件
+##### Swift
 
-```objectivec
-#include <sys/sysctl.h>
-```
+```swift
+var systemInfo = utsname()
+uname(&systemInfo)
 
-
-```objectivec
-- (NSString *)modelsString {
-    size_t size;
-    int nR = sysctlbyname("hw.machine", NULL, &size, NULL, 0);
-    char *machine = (char *)malloc(size);
-    nR = sysctlbyname("hw.machine", machine, &size, NULL, 0);
-    NSString *platform = [NSString stringWithCString:machine encoding:NSUTF8StringEncoding];
-    free(machine);
-    
-    return platform;
+let machineMirror = Mirror(reflecting: systemInfo.machine)
+let identifier = machineMirror.children.reduce("") { identifier, element in
+    guard let value = element.value as? Int8, value != 0 else {return identifier}
+    return identifier + String(UnicodeScalar(UInt8(value)))
 }
 ```
 
 
-### SPDeviceModels
 
-iOS 设备型号判断
+##### OC
 
-使用 `CocoaPods` 安装: `pod 'SPDeviceModels'`
+**第一种方法**
 
-部分代码如下，最新代码移步 [github](https://github.com/mouos/GWLDeviceModels)
+```objective-c
+// 导入头文件
+#include <sys/sysctl.h>
+```
 
-```objectivec
-#import <Foundation/Foundation.h>
+```objective-c
+size_t size;
+int nR = sysctlbyname("hw.machine", NULL, &size, NULL, 0);
+char *machine = (char *)malloc(size);
+nR = sysctlbyname("hw.machine", machine, &size, NULL, 0);
+NSString *platform = [NSString stringWithCString:machine encoding:NSUTF8StringEncoding];
+free(machine);
+```
 
-NS_ASSUME_NONNULL_BEGIN
+**第二种方法**
 
-typedef NS_ENUM(NSInteger, DeviceModelsType) {
-    DeviceModelsTypeUnknown,
-    
-    DeviceModelsTypeSimulator,
-    
-    DeviceModelsTypeIPhone,
-    DeviceModelsTypeIPhone3G,
+```objective-c
+// 导入头文件
+#include <sys/utsname.h>
+```
 
-    ......
-};
-
-@interface SPDeviceModels : NSObject
-
-+ (void)modelsString:(void (^)(NSString *string))modelsString modelsType:(void (^)(DeviceModelsType type))modelsType ;
-
-@end
-
-NS_ASSUME_NONNULL_END
+```objective-c
+struct utsname systemInfo;
+uname(&systemInfo);
+NSString *deviceString = [NSString stringWithCString:systemInfo.machine encoding:NSUTF8StringEncoding];
 ```
 
 
-```objectivec
-#import "SPDeviceModels.h"
-#include <sys/sysctl.h>
 
-@implementation SPDeviceModels
+#### [SPDeviceModels](https://github.com/mouos/SPDeviceModels)
 
-+ (void)modelsString:(void (^)(NSString * _Nonnull))modelsString modelsType:(void (^)(DeviceModelsType))modelsType {
-    DeviceModelsType type = DeviceModelsTypeUnknown;
-    NSString *string = @"Unknown";
+部分代码如下，最新代码移步 [github](https://github.com/mouos/GWLDeviceModels)
+
+```swift
+import UIKit
+
+enum DeviceModelsType {
+    case Unknown
     
-    size_t size;
-    int nR = sysctlbyname("hw.machine", NULL, &size, NULL, 0);
-    char *machine = (char *)malloc(size);
-    nR = sysctlbyname("hw.machine", machine, &size, NULL, 0);
-    NSString *platform = [NSString stringWithCString:machine encoding:NSUTF8StringEncoding];
-    free(machine);
+    case Simulator
     
+    ...
     
-#pragma mark - iPad
-    if ([platform isEqualToString:@"iPad1,1"]) {
-        type = DeviceModelsTypeIPad;
-        string = @"iPad (A1219/A1337)";
+    case IPhone12ProMax
+    
+    ...
+    
+    case IPodTouch_7th
+    
+    ...
+    
+    case IPadPro_inch12_9_4th
+    
+    ...
+    
+    case IPadAir_4th
+}
+
+class SPDeviceModels {
+    
+    static let shared = SPDeviceModels()
+    
+    var model = (DeviceModelsType.Unknown, "Unknown")
+    
+    private init() {
+        
+        model = model(id: identifier())
     }
-
-    ......
 }
 
-@end
+extension SPDeviceModels {
+    
+    private func model(id: String) -> (type: DeviceModelsType, string: String) {
+        
+        switch id {
+        
+        // MARK: - iPad
+        
+        ...
+        
+        case "iPad11,7":
+            return (.IPad_8th, "iPad (8th generation) (A2428/A2429/A2430)")
+            
+            
+            // MARK: - iPad Air
+            
+            ...
+            
+        case "iPad13,2":
+            return (.IPadAir_4th, "iPad Air (4th generation) (A2324/A2072)")
+            
+            
+            // MARK: - iPad Pro
+            
+            ...
+            
+        case "iPad8,12":
+            return (.IPadPro_inch12_9_4th, "iPad Pro (12.9-inch) (4th generation) (A2069/A2232/A2233)")
+            
+            
+            // MARK: - iPad mini
+            
+            ...
+            
+        case "iPad11,2":
+            return (.IPadMini_5th, "iPad mini (5th generation) (A2124/A2125/A2126)")
+            
+            
+            // MARK: - iPhone
+            
+            ...
+            
+        case "iPhone13,4":
+            return (.IPhone12ProMax, "iPhone 12 Pro Max (A2342)")
+            
+            
+            // MARK: - iPod touch
+            
+            ...
+            
+        case "iPod9,1":
+            return (.IPodTouch_7th, "iPod touch (7th generation) (A2178)")
+            
+            
+        // MARK: - Simulator
+        case "i386", "x86_64":
+            return (.Simulator, "Simulator")
+            
+        default:
+            return (.Unknown, "Unknown")
+        }
+    }
+}
+
+extension SPDeviceModels {
+    
+    private func identifier() -> String {
+        
+        var systemInfo = utsname()
+        uname(&systemInfo)
+        
+        let machineMirror = Mirror(reflecting: systemInfo.machine)
+        let identifier = machineMirror.children.reduce("") { identifier, element in
+            guard let value = element.value as? Int8, value != 0 else {return identifier}
+            return identifier + String(UnicodeScalar(UInt8(value)))
+        }
+        
+        return identifier
+    }
+}
 ```
 
 
-> 最后更新日期 2020-06-06
+
+
+> 最后更新日期 2020-11-06

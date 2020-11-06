@@ -9,6 +9,8 @@ comments: false
 toc: true
 ---
 
+
+# OC
 ```objectivec
 CGFloat y = 50;
 CGFloat rows = 5;
@@ -24,9 +26,7 @@ for (NSInteger i = 0; i <= 10; i ++) {
     [self.view addSubview:v];
 }
 ```
-
-
-
+# swift
 ```swift
 let y: CGFloat = 50
 let rows: CGFloat = 5
@@ -42,4 +42,3 @@ for i in 0...10 {
     view.addSubview(v)
 }
 ```
-
