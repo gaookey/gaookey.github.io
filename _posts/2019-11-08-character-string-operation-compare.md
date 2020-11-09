@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NSDecimalNumber - 字符串运算/字符串比较数字大小
+title: iOS NSDecimalNumber
 date: 2019-11-08
 Author: gwl
 categories: 
@@ -10,74 +10,87 @@ toc: true
 ---
 
 
-```objectivec
-#import "DecimalNumberHandler.h"
 
-@implementation DecimalNumberHandler
 
-/// 字符串运算/字符串比较数字大小
-/// @param frontStr frontStr
-/// @param afterStr afterStr
-/// @param scale 保留小数点后几位
-/// @param type 运算符号 + - * /
-/// @param result result:运算结果  compareResult:比较结果(0:frontStr < afterStr 1:frontStr = afterStr 2:frontStr > afterStr)
-+ (void)decimalNumberFrontStr:(NSString *)frontStr afterStr:(NSString *)afterStr scale:(short)scale type:(DecimalNumberType)type result:(void (^)(NSString *result,int compareResult))result
-{
-    NSDecimalNumberHandler *behavior = [NSDecimalNumberHandler
-                                        decimalNumberHandlerWithRoundingMode:NSRoundUp
-                                        scale:scale
-                                        raiseOnExactness:NO
-                                        raiseOnOverflow:NO
-                                        raiseOnUnderflow:NO
-                                        raiseOnDivideByZero:YES];
-    
-    NSDecimalNumber *frontNum = [NSDecimalNumber decimalNumberWithString:frontStr];
-    NSDecimalNumber *afterNum = [NSDecimalNumber decimalNumberWithString:afterStr];
-    
-    NSDecimalNumber *resultNum = [[NSDecimalNumber alloc] init];
-    
-    switch (type) {
-        case DecimalNumberTypeAdding:
-            resultNum = [frontNum decimalNumberByAdding:afterNum
-                                           withBehavior:behavior];
-            break;
-        case DecimalNumberTypeSubtracting:
-            resultNum = [frontNum decimalNumberBySubtracting:afterNum
-                                                withBehavior:behavior];
-            break;
-        case DecimalNumberTypeMultiplying:
-            resultNum = [frontNum decimalNumberByMultiplyingBy:afterNum
-                                                  withBehavior:behavior];
-            break;
-        case DecimalNumberTypeDividing:
-            resultNum = [frontNum decimalNumberByDividingBy:afterNum
-                                               withBehavior:behavior];
-            break;
-            
-        default:
-            break;
-    }
-    
-    NSArray *arr = [[NSString stringWithFormat:@"%@",resultNum] componentsSeparatedByString:@"-"];
-    NSString *str = arr.count == 1 ? arr[0] : arr[1];
-    
-    // 比较两个值的大小
-    NSDecimalNumber *front = [NSDecimalNumber decimalNumberWithString:frontStr];
-    NSDecimalNumber *after = [NSDecimalNumber decimalNumberWithString:afterStr];
-    
-    NSComparisonResult compare = [front compare:after];
-    int compareResult = 0;
-    
-    if (compare == NSOrderedAscending) {// 升序
-        compareResult = 0;
-    } else if (compare == NSOrderedSame) {// 相等
-        compareResult = 1;
-    } else if (compare == NSOrderedDescending) {// 降序
-        compareResult = 2;
-    }
-    
-    result(str,compareResult);
-}
 
-@end
+##### 基本运算
+
+```swift
+let num = NSDecimalNumber(string: "35.89302")
+let num2 = NSDecimalNumber(string: "15.161")
+
+var result = NSDecimalNumber()
+
+// 加  51.05402
+result = num.adding(num2)
+// 减  20.73202
+result = num.subtracting(num2)
+// 乘  544.17407622
+result = num.multiplying(by: num2)
+// 除  2.36745729173537365609128685442912736626
+result = num.dividing(by: num2)
+// 次方  1288.3088847204
+result = num.raising(toPower: 2)
 ```
+
+
+
+
+
+---
+
+
+
+##### 设置小数点后保留位数 
+
+```sw
+/*
+ NSDecimalNumber.RoundingMode :
+ 
+ value    1.2  1.21  1.25  1.35  1.27
+ 
+ plain    1.2  1.2   1.3   1.4   1.3
+ down     1.2  1.2   1.2   1.3   1.2
+ up       1.2  1.3   1.3   1.4   1.3
+ bankers  1.2  1.2   1.2   1.4   1.3
+ */
+ 
+let behavior = NSDecimalNumberHandler(roundingMode: .bankers,
+                                      scale: 2, // 保留两位小数
+                                      raiseOnExactness: false,
+                                      raiseOnOverflow: false,
+                                      raiseOnUnderflow: false,
+                                      raiseOnDivideByZero: true)
+
+let num = NSDecimalNumber(string: "35.89302")
+let num2 = NSDecimalNumber(string: "15.161")
+var result = NSDecimalNumber()
+
+// 除  2.37
+result = num.dividing(by: num2, withBehavior: behavior)
+```
+
+
+
+
+
+##### 比较大小
+
+
+
+```swift
+let num = NSDecimalNumber(string: "35.89302")
+let num2 = NSDecimalNumber(string: "15.161")
+
+// num > num2
+let result = num.compare(num2)
+
+if result == .orderedAscending {
+    print("num < num2")
+} else if result == .orderedDescending {
+    print("num > num2")
+} else if result == .orderedSame {
+    print("num == num2")
+}
+```
+
