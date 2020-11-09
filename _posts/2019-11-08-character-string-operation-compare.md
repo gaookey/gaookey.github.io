@@ -43,7 +43,7 @@ result = num.raising(toPower: 2)
 
 ##### 设置小数点后保留位数 
 
-```sw
+```swift
 /*
  NSDecimalNumber.RoundingMode :
  
