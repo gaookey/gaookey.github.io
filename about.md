@@ -5,7 +5,8 @@ permalink: /about/
 ---
 
 
-再努力一点点
+这个人很懒 什么都没有留下
 
 
-本站点地址: [http://gaowenli.com/](http://gaowenli.com/)
+
+本站点地址: [gaowenli.com](gaowenli.com)

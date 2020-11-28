@@ -1,4 +1,4 @@
 # 个人博客
 
-[gaowenli.com](https://gaowenli.com/)
+[gaowenli.com](gaowenli.com)
 
