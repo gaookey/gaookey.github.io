@@ -7,11 +7,11 @@
 # 井号后面的文字是说明文档，不会被程序读取。
 
 # 描述/签名
-name: swiftprimer
+name: gaowenli
 description: 这个人很懒 什么都没有留下
 
 # 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
-url: https://swiftprimer.com/
+# url: https://swiftprimer.com/
 
 # 添加你的博客的二级域名，一般来说是你的repository名
 # 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
@@ -24,10 +24,10 @@ url: https://swiftprimer.com/
 #
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: https://github.com/mouos/mouos.github.io/raw/master/images/logo.png
+avatar: https://github.com/swiftprimer/swiftprimer.github.io/blob/master/images/logo.png
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://github.com/mouos/mouos.github.io/raw/master/images/favicon.png
+favicon: https://github.com/swiftprimer/swiftprimer.github.io/blob/master/images/favicon.png
 
 
 # 菜单中的按钮
@@ -52,7 +52,7 @@ footer-links:
   weibo: #couos #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<>
   dribbble: # https://dribbble.com/<>
-  email: swiftprimer@gmail.com
+  email: swiftprimer@foxmail.com
   facebook: #https://www.facebook.com/<>
   flickr: #https://www.flickr.com/<>
   github: swiftprimer #https://github.com/<>
